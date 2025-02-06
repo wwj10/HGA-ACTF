@@ -18,8 +18,8 @@ public class ACTFDecompressor {
     private InputBitStream in;
 
     private final static long NAN_LONG = 0x7ff8000000000000L;
-    public final static short[] leadingRepresentation = {0 ,21, 24, 27, 30, 33, 35, 39};
-    public final static short[] CenterRepresentation = {0, 8, 16, 24, 32, 40};
+    public final static short[] leadingRepresentation 
+    public final static short[] CenterRepresentation 
 
     public ACTFDecompressor(byte[] bs) {
         in = new InputBitStream(bs);
