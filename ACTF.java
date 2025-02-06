@@ -11,25 +11,8 @@ public class ACTF {
     private int v = 0;
     public final static int THRESHOLD = 6;
     
-    public final static short[] leadingRepresentation = {0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 1, 1, 1,
-            2, 2, 2, 3, 3, 3, 4, 4,
-            4, 5, 5, 6, 6, 6, 6, 7,
-            7, 7, 7, 7, 7, 7, 7, 7,
-            7, 7, 7, 7, 7, 7, 7, 7,
-            7, 7, 7, 7, 7, 7, 7, 7
-    };
-    public final static short[] leadingRound = {0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 21, 21, 21,
-            24, 24, 24, 27, 27, 27, 30, 30,
-            30, 33, 33, 35, 35, 35, 35, 39,
-            39, 39, 39, 39, 39, 39, 39, 39,
-            39, 39, 39, 39, 39, 39, 39, 39,
-            39, 39, 39, 39, 39, 39, 39, 39
-    };
-
+    public final static short[] leadingRepresentation 
+    public final static short[] leadingRound 
     private void compressValue(long value) {
 
         final int Flag1 = 24;
